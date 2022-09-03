@@ -40,7 +40,7 @@ public class Board {
                 return(true);
             }else if(board[0][0].equals("0") && board[0][0].equals(board[1][1]) && board[0][0].equals(board[2][2])){
                 return(true);    
-            }else if(board[0][2].equals("0") && board[0][2].equals(board[1][1]) && board[1][1].equals(board[0][0])){
+            }else if(board[0][2].equals("0") && board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0])){
                 return(true);
             }else if(board[0][0].equals("0") && board[0][0].equals(board[1][0]) && board[0][0].equals(board[2][0])){
                 return(true);
@@ -57,7 +57,7 @@ public class Board {
             return(true);
             }else if(board[0][0].equals("X") && board[0][0].equals(board[1][1]) && board[0][0].equals(board[2][2])){
             return(true);    
-            }else if(board[0][2].equals("X") && board[0][2].equals(board[1][1]) && board[1][1].equals(board[0][0])){
+            }else if(board[0][2].equals("X") && board[0][2].equals(board[1][1]) && board[1][1].equals(board[2][0])){
             return(true);
             }else if(board[0][0].equals("X") && board[0][0].equals(board[1][0]) && board[0][0].equals(board[2][0])){
             return(true);
